@@ -1,0 +1,40 @@
+.item-top-company {
+    border: 1px solid #ededff;
+    margin-bottom: 1.5rem;
+    min-height: 237px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.item-top-company .company-baner {
+    display: block;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+a {
+    color: #333;
+    outline: none;
+}
+
+.item-top-company .company-info {
+    -moz-box-pack: end;
+    display: flex;
+    justify-content: flex-end;
+    min-height: 40px;
+    position: relative;
+}
+
+.item-top-company .company-logo {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #f9f9f9;
+    border-radius: 16px;
+    height: 80px;
+    left: 20px;
+    object-fit: contain;
+    position: absolute;
+    top: -40px;
+    width: 80px;
+}
